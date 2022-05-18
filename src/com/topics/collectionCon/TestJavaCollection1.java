@@ -9,9 +9,10 @@ public class TestJavaCollection1 {
         list.add("Ravi");//Adding object in arraylist
         list.add("Vijay");
         list.add("Ravi");
-        list.add("Ajay");
+        list.add("deshraj");
 //Traversing list through Iterator
         Iterator itr=list.iterator();
+        System.out.println();
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
@@ -20,18 +21,20 @@ public class TestJavaCollection1 {
         al.add("Ravi");
         al.add("Vijay");
         al.add("Ravi");
-        al.add("Ajay");
         Iterator<String> itr1=al.iterator();
+        System.out.println();
         while(itr1.hasNext()){
             System.out.println(itr1.next());
         }
 
         Vector<String> v=new Vector<String>();
         v.add("Ayush");
+        v.add("Ayush");
         v.add("Amit");
         v.add("Ashish");
         v.add("Garima");
         Iterator<String> itr2=v.iterator();
+        System.out.println();
         while(itr2.hasNext()){
             System.out.println(itr2.next());
         }
@@ -44,16 +47,17 @@ public class TestJavaCollection1 {
         stack.push("Garima");
         stack.pop();
         Iterator<String> itr4=stack.iterator();
+        System.out.println();
         while(itr4.hasNext()){
             System.out.println(itr4.next());
         }
-
 
         PriorityQueue<String> queue=new PriorityQueue<String>();
         queue.add("Amit Sharma");
         queue.add("Vijay Raj");
         queue.add("JaiShankar");
         queue.add("Raj");
+        System.out.println();
         System.out.println("head:"+queue.element());
         System.out.println("head:"+queue.peek());
         System.out.println("iterating the queue elements:");
