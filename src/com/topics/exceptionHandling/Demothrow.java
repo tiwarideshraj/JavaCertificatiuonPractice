@@ -14,8 +14,7 @@ public class Demothrow {
         }
         public static void main(String[] args) {
             Demothrow dt=new Demothrow();
-
-            dt.driving("");
+            dt.driving("fg");
         }
     }
 

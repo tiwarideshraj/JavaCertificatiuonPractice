@@ -66,7 +66,7 @@ public class TestJavaCollection1 {
             System.out.println(itr5.next());
         }
         queue.remove();
-        queue.poll();
+        //queue.poll();
         System.out.println("after removing two elements:");
         Iterator<String> itr6=queue.iterator();
         while(itr6.hasNext()){
@@ -79,6 +79,7 @@ public class TestJavaCollection1 {
         deque.add("Karan");
         deque.add("Ajay");
 //Traversing elements
+        System.out.println();
         for (String str7 : deque) {
             System.out.println(str7);
         }
@@ -89,6 +90,7 @@ public class TestJavaCollection1 {
         set.add("Ravi");
         set.add("Ajay");
 //Traversing elements
+        System.out.println();
         Iterator<String> itr8=set.iterator();
         while(itr8.hasNext()){
             System.out.println(itr8.next());
@@ -99,6 +101,7 @@ public class TestJavaCollection1 {
         set1.add("Vijay");
         set1.add("Ravi");
         set1.add("Ajay");
+        System.out.println();
         Iterator<String> itr9=set1.iterator();
         while(itr9.hasNext()){
             System.out.println(itr9.next());
@@ -111,6 +114,7 @@ public class TestJavaCollection1 {
         set2.add("Ravi");
         set2.add("Ajay");
 //traversing elements
+        System.out.println();
         Iterator<String> itra=set2.iterator();
         while(itra.hasNext()){
             System.out.println(itra.next());

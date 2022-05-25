@@ -23,7 +23,9 @@ public class DemoExpChecked {
 
             }
             catch(IOException e) {
-                e.printStackTrace();
+                System.out.println("file not found");
+
+               // e.printStackTrace();
             }
         }
     }

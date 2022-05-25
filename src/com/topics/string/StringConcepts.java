@@ -1,4 +1,4 @@
-package com.topics;
+package com.topics.string;
 
 public class StringConcepts {
 

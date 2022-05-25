@@ -10,8 +10,8 @@ package com.topics.exceptionHandling;
                 System.out.println(i/j);
             }
             catch(ArithmeticException ae) {
-
-                System.out.println("wrong input");
+                System.out.println("result = "+i*j);
+                //System.out.println("wrong input");
             }
             System.out.println("statement after division");
         }

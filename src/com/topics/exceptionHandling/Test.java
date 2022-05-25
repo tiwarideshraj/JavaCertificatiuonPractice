@@ -2,7 +2,8 @@ package com.topics.exceptionHandling;
 
 class Test extends Exception{
     public static void main(String args[]) {
-
+   Test e = new Test();
+   e.main();
     }
     public void main() {
         try {
